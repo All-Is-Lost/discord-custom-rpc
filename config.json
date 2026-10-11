@@ -1,0 +1,19 @@
+{
+  "client_id": "YOUR_APPLICATION_ID_HERE",
+  "details": "Playing Online",
+  "state": "In Match",
+  "large_image": "logo",
+  "large_text": "Game Title",
+  "small_image": "icon",
+  "small_text": "Online",
+  "buttons": [
+    {
+      "label": "Visit Profile",
+      "url": "https://github.com/All-Is-Lost"
+    },
+    {
+      "label": "Join Discord",
+      "url": "https://discord.gg/"
+    }
+  ]
+}
