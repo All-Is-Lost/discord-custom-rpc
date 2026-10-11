@@ -24,10 +24,11 @@ Easily display custom status text, dynamic timestamps, custom images, and intera
 ### 2. Installation
 Clone this repository or download the ZIP file:
 ```bash
-git clone https://github.com/All-Is-Lost/discord-custom-rpc.git
+git clone [https://github.com/All-Is-Lost/discord-custom-rpc.git](https://github.com/All-Is-Lost/discord-custom-rpc.git)
 cd discord-custom-rpc
 pip install -r requirements.txt
 ```
+
 ### 3. Configuration
 1. Open the [Discord Developer Portal](https://discord.com/developers/applications).
 2. Create a **New Application** and copy your **Application ID**.
@@ -54,3 +55,23 @@ pip install -r requirements.txt
     }
   ]
 }
+```
+
+### 4. Run the Script
+```bash
+python main.py
+```
+
+---
+
+## Support & Donations
+
+If you find this project useful, consider buying me a coffee! Any support is greatly appreciated.
+
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/YOUR_KOFI_USERNAME)
+
+---
+
+## License
+
+MIT License
