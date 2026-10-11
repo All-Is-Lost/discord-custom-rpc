@@ -53,4 +53,4 @@ pip install -r requirements.txt
       "url": "[https://discord.gg/](https://discord.gg/)"
     }
   ]
-}****
+}
