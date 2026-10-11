@@ -28,3 +28,29 @@ git clone https://github.com/All-Is-Lost/discord-custom-rpc.git
 cd discord-custom-rpc
 pip install -r requirements.txt
 ```
+### 3. Configuration
+1. Open the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Create a **New Application** and copy your **Application ID**.
+3. Under **Rich Presence -> Art Assets**, upload your images and note their asset keys.
+4. Edit `config.json` with your details:
+
+```json
+{
+  "client_id": "YOUR_APPLICATION_ID_HERE",
+  "details": "Playing Online",
+  "state": "In Match",
+  "large_image": "logo",
+  "large_text": "Game Title",
+  "small_image": "icon",
+  "small_text": "Online",
+  "buttons": [
+    {
+      "label": "Visit Profile",
+      "url": "[https://github.com/All-Is-Lost](https://github.com/All-Is-Lost)"
+    },
+    {
+      "label": "Join Discord",
+      "url": "[https://discord.gg/](https://discord.gg/)"
+    }
+  ]
+}****
