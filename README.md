@@ -62,6 +62,10 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+#### Quick Start Demo (GTA VI Theme)
+Want to try it out immediately without setting up Application IDs? Just run:
+```bash
+python example.py
 
 ---
 
