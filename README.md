@@ -4,6 +4,7 @@ A lightweight, fully customizable Discord Rich Presence (RPC) tool written in Py
 Easily display custom status text, dynamic timestamps, custom images, and interactive buttons on your Discord profile.
 
 ---
+![Preview](preview.png)
 
 ## Features
 
